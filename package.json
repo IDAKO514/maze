@@ -1,0 +1,24 @@
+{
+  "name": "maze",
+  "version": "1.0.0",
+  "description": "Generateur et solveur de labyrinthe en console, avec graine reproductible.",
+  "type": "commonjs",
+  "bin": {
+    "maze": "maze.js"
+  },
+  "main": "maze.js",
+  "files": [
+    "maze.js"
+  ],
+  "scripts": {
+    "start": "node maze.js"
+  },
+  "keywords": [
+    "maze",
+    "cli",
+    "ascii",
+    "algorithme"
+  ],
+  "license": "MIT",
+  "private": true
+}

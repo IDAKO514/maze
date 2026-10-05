@@ -1,0 +1,41 @@
+# Secrets - ne jamais committer
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.kdbx
+credentials.json
+service-account.json
+id_rsa
+.netrc
+.npmrc
+
+# Systeme et editeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs et temporaires
+*.log
+npm-debug.log*
+
+# Donnees locales chrono
+.chrono/
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+next/
+.cache/
